@@ -21,7 +21,7 @@ import './assets/style/style13.css';
 import './assets/style/style14.css';
 import './assets/style/style15.css';
 import './assets/style/style16.css';
-import './assets/style/myStyleForCarusel.css';
+// import './assets/style/myStyleForCarusel.css';
 
 
 const sagaMiddleware = createSagaMiddleware();

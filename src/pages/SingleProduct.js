@@ -98,9 +98,13 @@ class SingleProduct extends Component {
                   </li>
                 </ol>
                 {this.state.showimage?
+
                   <div>
-                    <button className='forButtClassHide'
-                            onClick={this.showimage}> X </button>
+                    <div style={{marginTop:'-100px'}}>
+                      <button style={{positin:'absolute',width:'600px',background:'black',marginLeft:'300px',marginTop:'-50px'}}
+                              onClick={this.showimage}> X </button>
+                    </div>
+
                   <img
                     alt={single.images[0].alt}
                     src={single.images[0].src}
